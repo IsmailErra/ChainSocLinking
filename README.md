@@ -11,7 +11,7 @@ La topologie de chaque machine repose sur deux interfaces distinctes configurée
 ## Préparation des machines
 
 ### Watcher
-La machine Watcher est configurée et validée au niveau de l'hyperviseur.
+L'état d'activation de la machine Watcher est configuré et validé au sein de l'hyperviseur. Il est à noter que pour faciliter la gestion et la supervision globale, nous avons transformé et arrangé l'infrastructure de manière à ce que l'ensemble des machines virtuelles soient regroupées sur un seul PC physique. Cette centralisation consolide le fonctionnement du réseau interne (Host-only).
 
 ### Configuration réseau VMware de la machine Watcher
 ![Watcher network settings](avn4/screenshots/watcher_vm_network_settings.png)
